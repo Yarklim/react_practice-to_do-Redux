@@ -1,0 +1,17 @@
+.formWrapper {
+  width: 100%;
+
+  display: flex;
+  gap: 5px;
+}
+
+.inputAdd {
+  display: block;
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 6px;
+}
