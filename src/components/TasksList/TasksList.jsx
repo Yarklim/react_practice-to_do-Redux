@@ -1,20 +1,17 @@
 import React from 'react';
-import CloseIcon from '@mui/icons-material/Close';
+
+import Task from '../Task/Task';
 import s from './TasksList.module.scss';
 
 const TasksList = () => {
   return (
     <div>
       <ul>
-        <li className={s.listItem}>
-          <div className={s.itemText}>
-            <input type="checkbox" />
-            <p>Learn HTML</p>
-          </div>
-          <CloseIcon style={{ fill: 'red' }} />
+        <li>
+          <Task />
+          <hr style={{ marginTop: 20, marginBottom: 20 }} />
         </li>
       </ul>
-      <hr style={{ marginTop: 20, marginBottom: 20 }} />
     </div>
   );
 };
